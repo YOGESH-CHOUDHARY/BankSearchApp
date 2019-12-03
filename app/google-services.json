@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1059700590600",
+    "firebase_url": "https://banksearchapp-ba2eb.firebaseio.com",
+    "project_id": "banksearchapp-ba2eb",
+    "storage_bucket": "banksearchapp-ba2eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059700590600:android:43dd5db91afecf5f16a9bd",
+        "android_client_info": {
+          "package_name": "com.example.banksearchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059700590600-a4t3hepvftti0fgrdempm9gql6jmvr74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx5L8WxsJ92nPLB7gV5Rq_xmLuuEVEvXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059700590600-a4t3hepvftti0fgrdempm9gql6jmvr74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
