@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_pricely"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pricely"
+        android:textSize="72dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_best_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THE BEST ASK?"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/tv_pricely"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_best_ask"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#9b1c31"
+        android:textSize="24dp"
+        android:text="Welcome Back!"/>
+
+    <TextView
+        android:id="@+id/tv_l_to_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Login to continue with Priceley"
+        android:gravity="center"
+        android:textSize="24dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/tv_l_to_p">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/tv_l_to_p"
+            android:hint="10-digit mobile number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="#9b1c31"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tv_num"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9b1c31"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/btn_login"/>
+
+    <TextView
+        android:id="@+id/tv_p_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:text="Don't have a Pricely account?"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_below="@+id/tv_p_a"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#9b1c31"/>
+
+</RelativeLayout>
